@@ -1,0 +1,100 @@
+/* hover=pointing the curser(focus) on the buttom */
+
+/* button:hover{           
+    color:white;
+    background-color:black;
+    cursor:pointer;
+} */
+
+/* active = it is use to click on the left button*/
+/* button:active{
+    border:10px solid red;
+} */
+
+/* button:focus{
+    background-color: pink;
+    color:white;
+} */
+
+/* a:link{
+    color:red;
+} */
+
+/* a:visited{
+    color:green;
+} */
+
+/* span{
+    padding:8px;
+    margin:0px;
+    background-color:yellow;
+} */
+
+/* .child1{
+    background-color:red;
+} */
+
+ /* first child */
+ /* span:first-child{background-color:red;
+} */
+
+/* last child */
+/* span:last-child{
+    background-color: green;
+} */
+
+/* nth child(example=third bhild) */
+/* span:nth-child(3){
+    background-color: greenyellow;
+} */
+
+/* style for even child */
+/* span:nth-child(even){
+    background-color: aqua;
+} */
+
+/* style for odd chil */
+/* span:nth-child(odd){
+    background-color:green;
+} */
+
+/* it is use to change in content(if i have not access in html) = in pesuedo element */
+/* h1::before{
+    content: "hellow ";
+    /* background-color:aqua; */
+    /* color:red; */
+/* } */
+/* h1::after{ */
+    /* content: " good morning "; */
+    /* background-color: yellow; */
+    /* color:red; */
+/* } */ 
+
+.shape{
+    margin:100px;
+    width:150px;
+    height:150px;
+    background-color:aqua;
+    border-radius: 50%;
+    position:relative;
+}
+.shape::before{
+    content:" ";
+    width:80px;
+    height:80px;
+    background-color:yellow;
+    position:absolute;
+    top:0;
+    left:0;
+    border-radius:50%;
+}
+/* .shape::after{
+    content:" ";
+    width:80px;
+    height:80px;
+    background-color:yellow;
+    position:absolute;
+    bottom:0;
+    right:0;
+    border-radius:50%;
+} */

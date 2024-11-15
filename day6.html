@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Table and Input Tag </title>
+        <!--it is css-->
+        <style>
+            table,th,td{
+                border:5px solid pink;
+                border-cpllapse: collapse;
+            }
+        </style>
+    </head>
+    <body> 
+        <h5>Whatshap loging password</h5>
+        <!--Input tags-->
+     <!-- <input type="number" />         -->
+    <lable>UserName:</lable>
+      <input type="text" placeholder="plz enter your name" required/>   
+      <br/>
+      <br/>
+    <lable>Password:&nbsp;</lable>
+    <input type="password" placeholder="plase enter password" required />
+        <br/>
+        <br/>
+    <label>Gender:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <!-- <input placeholder="plese enter your gender" required > -->
+        <input type="radio" name="gender"/><lable>male</lable>
+        <input type="radio" name="gender"/><lable>femal</lable>
+        <input type="radio" name="gender"/><lable>prafer not to say</lable>
+        <hr/>
+        <!--Table-->
+        <table>
+           <!--tr: table row -->
+           <!--rowspan: colspan -->
+
+          <tr>
+            <th>cumpany name</th>
+            <th>mail id</th>
+            <th>phone num</th>
+            <th>about us</th>
+        </tr> 
+         <tr>
+            <!--tr: table data -->
+            <td colspan="2">morgan</td>
+            <td>rishabh@jpmorgan.com</td>
+            <td>9876543210</td>
+            <td>microshoft</td>
+         </tr>
+         <tr>
+            <td rowspan="2">blackrock</td>
+            <td>black@risabh.com</td>
+            <td>9876543210</td>
+            <td>window</td>
+         </tr>
+         <tr>
+            <td>India</td>
+            <td>black@risabh.com</td>
+            <td>9876543210</td>
+            <td>window</td>
+         </tr>
+         <!--cell-->
+        </table>
+    </body>
+</html>

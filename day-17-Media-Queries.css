@@ -1,0 +1,23 @@
+@media only screen and(max-width:1200px){
+    h2 {
+      color: yellow;
+      font-size: 15px;
+    }
+  }
+  @media screen and(min-width:400px){
+    h2 {
+      color: aqua;
+      font-size: 10px;
+    }
+  }
+  p{
+    color:red;
+  }
+  
+/* 
+max-width
+        eg:max-width:400px(screen sizeis <=400px)
+        
+min-width
+        eg:min-width:400px(screen size >=400px)
+*/

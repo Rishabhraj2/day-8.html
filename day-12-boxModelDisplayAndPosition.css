@@ -1,0 +1,134 @@
+*{
+   box-sizing:border-box;
+}
+
+/* h6{
+    color:aqua;
+    background-color:green;
+    border:2px dotted blue; */
+    /* padding-left:15px; */
+    /* padding:0 0 0 15px; */
+
+    /* margin-left:20px; */
+    /* margin: 0 0 0 20px; */
+    /* top right bottom left(clock wise direction) */
+ /* }  */
+/* 
+Padding=>Internal to box/border;
+Margin=> External to Box/border;
+ */
+/* 
+ .displayIncss1{
+    color:aqua;
+    background-color: blue;  it is used in class selector and it is create two different line
+    height: 55px;
+    display: block;
+ }
+
+ .displayIncss2{
+    color:blue;
+    background-color: aqua;
+    height:56px;
+    display: block;
+ } */
+
+/* 
+ .displayIncss1{
+    color:aqua;
+    background-color: blue;    it is used in class selector and it create one line and inline are flow background color according to word  
+    height: 55px;
+    display:inline ;
+ }
+
+ .displayIncss2{
+    color:blue;
+    background-color: aqua;
+    height:56px;
+    display: inline;
+ } */
+
+
+ /* .displayIncss1{
+    color:aqua;
+    background-color: blue;       
+    height: 55px;
+    width: 40px;
+    display:inline-block ;
+ } 
+
+ .displayIncss2{
+    color:blue;
+    background-color: aqua;
+    height:56px;
+    display: inline-block; 
+ } */
+
+ /* static position = its by defult || it is occupy empty space*/
+
+ /* .positionInCss{
+   position:static;
+   background-color: green;
+   color:red;
+   border:1px solid blueviolet;
+ } */
+
+ /* relative position =it is a offset value it means he move (top ,right,left,buttom)*/
+ /* .positionInCss{
+   position:relative;
+   top:10px;
+   left:0;
+   background-color: green;
+   color:red;
+   border:1px solid blueviolet;
+ } */
+
+ /* fixed = it means fix highlighted link and paragraph scrolling any way*/
+ /* .positionInCss{
+   position:fixed;
+   top:10px;
+   left:0;
+   background-color: green;
+   color:red;
+   border:1px solid blueviolet;
+ } */
+
+ /* absolute =it should always have a parent
+             =the parent should be of position:relative
+             =the pffsets values are write to the parent not write to the entire union
+             -------------------------------------------------------------------------
+             =if we not have any parent for position:absolute
+             =than by defult it considers the body as the parent
+             =and body exactly acts as relative in nature
+             */
+ /* #pparent{
+   position:relative;
+   height: 250px;
+   width: 250px;
+   border:2px dashed black;
+ }
+ .positionInCss{
+   position:absolute;
+   top:10px;
+   left:0;
+   background-color: green;
+   color:red;
+   border:1px solid blueviolet;
+   top:30px;
+   left:50px;
+   right:o;
+   bottom:0;
+ } */
+
+ /* sticky: it is fix position but he scrool some way
+ */
+ .positionInCss{
+   position:sticky;
+   top:10px;
+   left:0;
+   background-color: green;
+   color:red;
+   border:1px solid blueviolet;
+   top:30px;
+   left:50px;
+   
+ }

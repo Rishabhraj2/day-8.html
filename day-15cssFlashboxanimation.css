@@ -1,0 +1,62 @@
+.parent{
+    height:1150px;
+    background-color: green;
+    display: flex;
+    flex-direction:column ;    /*it is use to choose fix directio */
+    /* column-reverse */
+    /* column */
+    /* row */
+    /* row-reverse */
+     gap:10px;          /*   it is use to create gap in between line */
+    justify-content:flex-start;  /* it is use to choose wheare i am start*/
+    /* flax-start,flex-end,center,space-around,space-between,space-evenly */
+    /* NOTE:if your justify-content & aling-items are center than your output in center */
+    align-items:center;
+    /* flex-start,flsx-end,center ,stretch(it is use when remove height)*/
+    flex-wrap:wrap;     /* it is use to increase & decrease screensize */
+}
+.child{
+    height:100px;
+    width:100px;
+    /* flex:2;                 whitch is use to increase & decrease boxsize one to another box */
+    background-color:aqua;
+    border:1px solid red;
+    /* margin:10px; */
+    justify-content:center;
+}
+
+/* .child2{
+    height:100px;
+    width:100px;
+    flex:1;
+    background-color:aqua;
+    border:1px solid red;
+    margin:10px;
+} */
+.demo1div{
+    background-color: yellow;
+}
+
+button{
+    background-color:black;
+    color:white;
+    margin:20px;
+    padding:10px;
+    font-size:20px;
+    font-family:'Sagoe UI ',Tahoma,Geneva,Verdana,sans-serif;
+    
+    /* transmition prooperties */
+    /* transition-delay:100ms;
+    transition-duration: 50ms; */
+
+    /* all */
+    /* transition-property:color; */
+
+    /* linear,ease, ease-in,ease-out,ease-in-out,cubic-bazier(0.22,0.75,0.85,-0.32) */
+    /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+button:hover{
+    background-color:aqua;
+    color:black;
+    cursor:pointer;
+}
